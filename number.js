@@ -28,22 +28,58 @@
 
 
 //<Generate Even and Odd Number less than N>
-function number () {
-    for (let num = 0; num <= 20; num ++) {
-       if (num %2 == 0) {
-           console.log(num + 'even');
-       }
-    }
+// function number () {
+//     for (let num = 0; num <= 20; num ++) {
+//        if (num %2 == 0) {
+//            console.log(num + 'even');
+//        }
+//     }
+//
+// }
+// number();
+//
+// function number () {
+//     for (let num = 0; num <= 20; num ++) {
+//         if (num %2 != 0) {
+//             console.log(num + 'odd');
+//         }
+//     }
+//
+// }
+// number();
 
+
+//<program to decide given N is Prime or not>
+// function TestPrime(n)
+// {
+//         for(let x = 2; x < n; x++)
+//         {
+//             if(n % x === 0)
+//             {
+//                 console.log (false);
+//             }
+//         }
+//     }
+//     console.log (true);
+//
+// TestPrime();
+
+
+// <find left / right shift>
+function leftShift(x,y) {
+    let result = x * 2**y;
+    console.log(result);
 }
-number();
+leftShift(5,6);
 
-function number () {
-    for (let num = 0; num <= 20; num ++) {
-        if (num %2 != 0) {
-            console.log(num + 'odd');
-        }
-    }
-
+function rightShift(x,y) {
+    let result = x / 2**y;
+    console.log(result);
 }
-number();
+rightShift(5,6);
+
+
+
+
+
+
