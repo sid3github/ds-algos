@@ -78,7 +78,7 @@
 // rightShift(5,6);
 
 
-//recursion example
+//<recursion example>
 // function f(n) {
 // if(n % 2){
 //     return(n++);
@@ -89,7 +89,27 @@
 // f(30);
 
 
+//<recursion example>
+function f(n){
+    if(n <= 1){
+        return 1;
+    }
+    if(n % 2 == 0){
+        return f(n/2);
+        return f(n/2) + f(n/2 + 1);
+    }
+}
+f(11);
 
 
+//<recursion example>
+// function f(n) {
+// if(n % 2){
+//     return n++;
+// }else{
+//     return f(f(n-1));
+// }
+// }
+// f(200);
 
 
