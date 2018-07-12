@@ -61,22 +61,32 @@
 //         }
 //     }
 //     console.log (true);
-//
 // TestPrime();
 
 
 // <find left / right shift>
-function leftShift(x,y) {
-    let result = x * 2**y;
-    console.log(result);
-}
-leftShift(5,6);
+// function leftShift(x,y) {
+//     let result = x * 2**y;
+//     console.log(result);
+// }
+// leftShift(5,6);
+//
+// function rightShift(x,y) {
+//     let result = x / 2**y;
+//     console.log(result);
+// }
+// rightShift(5,6);
 
-function rightShift(x,y) {
-    let result = x / 2**y;
-    console.log(result);
-}
-rightShift(5,6);
+
+//recursion example
+// function f(n) {
+// if(n % 2){
+//     return(n++);
+// }else{
+//     return f(f(n- 1));
+// }
+// }
+// f(30);
 
 
 
