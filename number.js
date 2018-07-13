@@ -90,16 +90,16 @@
 
 
 //<recursion example>
-function f(n){
-    if(n <= 1){
-        return 1;
-    }
-    if(n % 2 == 0){
-        return f(n/2);
-        return f(n/2) + f(n/2 + 1);
-    }
-}
-f(11);
+// function f(n){
+//     if(n <= 1){
+//         return 1;
+//     }
+//     if(n % 2 == 0){
+//         return f(n/2);
+//         return f(n/2) + f(n/2 + 1);
+//     }
+// }
+// f(11);
 
 
 //<recursion example>
@@ -111,5 +111,48 @@ f(11);
 // }
 // }
 // f(200);
+
+
+// function get (n){
+//     if(n<1) return;
+//     get (n-1);
+//     get (n-3);
+//     console.log(n);
+// }
+// get(6);
+
+
+//<log function>
+// function log(n){
+//     if(n == 1){
+//         return 0;
+//     }else{
+//         return 1+log(n/2);
+//     }
+// };
+// log(16);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
