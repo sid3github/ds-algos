@@ -133,6 +133,138 @@
 // log(16);
 
 
+//<recursion problem solving>
+// function fun (n) {
+//     if (n == 4) {
+//         return n;
+//     } else {
+//         return 2 * fun (n + 1);
+//     }
+// }
+// fun(2);
+// Answer: 16
+
+
+//<recursion problem solving>
+// function fun (x , y) {
+//     if (x == 0) {
+//         return y;
+//     } else {
+//         return fun (x - 1 , x + y);
+//     }
+// }
+// fun(4 , 3);
+// Answer: 13
+
+
+//<recursion problem solving>
+// function fun (n) {
+//     if (n == 0) {
+//         return;
+//     } else {
+//         console.log (n % 2);
+//         fun (n / 2);
+//     }
+// }
+// fun(25);
+// Answer: 11001
+
+
+//<recursion problem solving>
+// function fun (x , y) {
+//     if (y == 0) {
+//         return 0;
+//     } else {
+//         return (x + fun(x, y-1));
+//     }
+//     }
+//     fun(2, 3);
+// Answer: 6
+
+
+//<recursion problem solving>
+// function fun2(a,b) {
+// if(b == 0){
+//     return 1;
+// }else{
+//     return fun(a,fun2(a,b-1));
+// }
+// }
+// fun2(2,3);
+// Answer: x+x*y
+
+
+//<recursion problem solving>
+// function print(n) {
+// if (n > 4000){
+//     return;
+// }else{
+//     console.log(n);
+//     console.log(2*n);
+//     console.log(n);
+// }
+// }
+// print(1000);
+// Answer: 1000 2000 1000
+
+
+//<recursion problem solving>
+// function fun(n) {
+//     if(n == 0 || n == 1){
+//         return n;
+//     }
+//     if( n%3 !=0){
+//         return 0;
+//         return fun(n/3);
+//     }
+// }
+// fun(3);
+// Answer: 1
+
+
+//<recursion problem solving>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
