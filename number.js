@@ -1,7 +1,6 @@
 // <finding positive / negative number>
 // function number(n) {
 //
-//
 //     if (n < 0) {
 //         console.log('n is negative');
 //     }
@@ -11,7 +10,6 @@
 //         console.log('n is zero');
 //     }
 // }
-// number(0);
 
 
 //<finding even / odd >
@@ -246,6 +244,92 @@
 // }
 // foo(513, 2);
 // Answer: 2
+
+
+//<recursion problem solving>
+// function f(n) {
+//     var i = 1;
+//     if(n >= 5){
+//         return n;
+//     }else{
+//         n = n + i;
+//         i++;
+//         }
+//         return f(n);
+// }
+// f(1);
+// Answer: 5
+
+
+//<recursion problem solving>
+// function ths(n) {
+//     if(n < 1){
+//         return;
+//     }else{
+//         ths (n - 1);
+//         ths (n - 3);
+//         console.log(n);
+//     }
+// }
+// ths(8);
+// Answer: 123141251236123147123141258
+
+
+//<recursion problem solving>
+// function count(n) {
+//     let d = 1;
+//     console.log(n);
+//     console.log(d);
+//     d++;
+//     if(n > 1){
+//         count(n - 1);
+//     }else{
+//         console.log(d);
+//     }
+// }
+// count(3);
+// Answer: 3121112
+
+
+//<recursion problem solving>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
