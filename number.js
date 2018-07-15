@@ -1,15 +1,20 @@
-// <finding positive / negative number>
+// <finding positive/negative number>
 // function number(n) {
 //
 //     if (n < 0) {
 //         console.log('n is negative');
 //     }
-//     else if(n > 0) {
+//     if(n > 0) {
 //         console.log('n is positive');
-//     }else{
+//     }
+//     else if {
 //         console.log('n is zero');
 //     }
+//     else{
+//         console.log('please type only number input');
+//     }
 // }
+// number();
 
 
 //<finding even / odd >
@@ -17,10 +22,17 @@
 //     if(num %2 == 0)
 //     {
 //         console.log('number is even');
-//     }else{
+//     }
+//     if(num %2 != 0)
+//     {
 //         console.log('number is odd');
 //     }
-//
+//     else if {
+//         console.log('num is not a valid input');
+//     }
+//     else{
+//         console.log('please enter a number');
+//     }
 // }
 // number();
 
@@ -129,6 +141,26 @@
 //     }
 // };
 // log(16);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //<recursion problem solving>
@@ -292,10 +324,28 @@
 
 
 //<recursion problem solving>
+// function f(n){
+//     if(n<=1){
+//         console.log(n);
+//     }else{
+//         f(n/2);
+//         console.log(n%2);
+//     }
+// }
+// f(1024);
+// Answer: 10000000000
 
 
-
-
+//<recursion problem solving>
+// function f(n) {
+//     if(n/2){
+//         f(n/2);
+//     }else{
+//         console.log(n%2);
+//     }
+// }
+// f(1024);
+// Answer: 1
 
 
 
