@@ -223,9 +223,20 @@
 
 
 //<recursion problem solving>
+// function f(n) {
+//     if(n<=1){
+//         return 1;
+//     }
+//     if(n%2 == 0){
+//         return f(Math.floor(n/2));
+//     }
+//     return f(Math.floor(n/2)) + f(Math.floor(n/2) + 1);
+// }
+// console.log(f(11));
+// Answer: 5
 
 
-
+//<recursion problem solving>
 
 
 
