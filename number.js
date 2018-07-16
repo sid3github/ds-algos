@@ -4,26 +4,35 @@
 //     if (n < 0) {
 //         console.log('n is negative');
 //     }
-//     else if(n > 0) {
+//     if(n > 0) {
 //         console.log('n is positive');
 //     }
-//     else {
+//     else if {
 //         console.log('n is zero');
+//     }
+//     else{
+//         console.log('please type only number input');
 //     }
 // }
 // number();
 
 
 //<finding even / odd >
-// function number(num) {
-//     if(num %2 == 0) {
+// function number (num) {
+//     if(num <= 0 || typeof num == 'string')
+//     {
+//         console.log('num is not a valid input');
+//     }
+//     if(num %2 == 0)
+//     {
 //         console.log('number is even');
 //     }
-//     else if(num %2 != 0) {
+//     else if(num %2 != 0)
+//     {
 //         console.log('number is odd');
 //     }
-//     else {
-//         console.log('num is not a valid input');
+//     else{
+//         console.log('please enter a number');
 //     }
 // }
 // number();
