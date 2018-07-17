@@ -164,6 +164,12 @@
 
 
 
+
+
+
+
+
+
 //<recursion problem solving>
 // function fun (n) {
 //     if (n == 4) {
@@ -349,34 +355,49 @@
 // Answer: 1
 
 
+// function f(n){
+//     if(n <= 2) {
+//      return 1;
+//     }else{
+//         f(n - 1) + f(n - 2);
+//     }
+// }
+// f(3);
 
 
+// function FirstFactorial(num) {
+//
+//   var factorial = 1;
+//
+//   for (var i = 1; i <= num; i++) {
+//     factorial = factorial * i;
+//   }
+//
+//    console.log(factorial);
+//
+// }
+// FirstFactorial(4);
 
 
+// function f(n) {
+//       if(n == 0){
+//        return 1;
+//       }else{
+//        return n * (n - 1);
+//       }
+//    }
+//  f(5);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//<tower of hanoi>
+// function tower(n,s,a,d) {
+//     if(n > 0) {
+//         tower(n-1,s,d,a);
+//         console.log('move disc' + n + ' from' + s + ' to' + d);
+//         tower(n-1,a,s,d);
+//     }
+// }
+// tower(3,'s','a','d');
 
 
 
