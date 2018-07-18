@@ -170,6 +170,8 @@
 
 
 
+
+
 //<recursion problem solving>
 // function fun (n) {
 //     if (n == 4) {
@@ -355,6 +357,7 @@
 // Answer: 1
 
 
+//<fibonacci series>
 // function f(n){
 //     if(n <= 2) {
 //      return 1;
@@ -398,6 +401,29 @@
 //     }
 // }
 // tower(3,'s','a','d');
+
+
+
+//<fibonacci series>
+// let fib = [];
+//
+// fib[0] = 0;
+// fib[1] = 1;
+//
+// for (let i = 2 ; i <= 10; i++)  {
+//     fib[i] = fib[i - 2] + fib[i - 1];
+//     console.log(i);
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
