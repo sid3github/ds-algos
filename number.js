@@ -417,6 +417,20 @@
 
 
 
+//<multidimensional array>
+//  const matrix = ([
+//     [0,1],
+//     [2,7],
+//     [44,33]
+//  ]);
+//
+//  console.log(matrix [][]);
+
+
+
+
+
+
 
 
 
