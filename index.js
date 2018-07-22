@@ -1,4 +1,4 @@
-// simple array addition.
+ // simple array addition.
 // let numbers = [1,2,3,44,55,66];
 // let sum = 0;
 // for(let i = 0; i < numbers.length; i++){
@@ -34,4 +34,25 @@
 // console.log(data(['coding', 'is', 'really', 'fun']));
 
 
+//.splice.
+// function num(arr){
+//   let ans = arr.slice(1, 1);
+//   return ans;
+// }
+// num(['The ',' Hacking',' School']);
+
+
 //
+
+
+
+
+
+
+
+
+
+
+
+
+
