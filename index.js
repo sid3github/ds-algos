@@ -14,6 +14,7 @@
 //   console.log('words ' + i + ' :' + words[i] );
 // }
 
+
 //.push & .unshift.
 // function data ( arr ) {
 // arr.unshift ( 1, 'II', 'three' );
@@ -21,3 +22,16 @@
 // return arr;
 // };
 // console.log ( data ( ['four', 5, 'VI'] ));
+
+
+//.pop & .shift.
+// function data(arr){
+//   let first = arr.shift();
+//   let last = arr.pop();
+//
+//   return arr;
+// }
+// console.log(data(['coding', 'is', 'really', 'fun']));
+
+
+//
