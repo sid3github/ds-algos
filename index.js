@@ -34,7 +34,7 @@
 // console.log(data(['coding', 'is', 'really', 'fun']));
 
 
-//.splice.
+//.slice.
 // function num(arr){
 //   let ans = arr.slice(1, 1);
 //   return ans;
@@ -42,7 +42,34 @@
 // num(['The ',' Hacking',' School']);
 
 
+//splice.
+//  function data(arr){
+//     arr.splice(2,1,'mahesh');
+//     return arr;
+//  }
+// data(['sid','haz','yash','saurabh']);
+
+
+//slice.
+//  function data(arr) {
+//     arr = arr.slice(1, 3);
+//     return arr;
+//  }
+//  data(['sid','haz','yash','saurabh']);
+
+
+//convert cel to fahr algo.
+//  function data(cel) {
+//      let fahr;
+//      fahr = (cel*9/5) + 30;
+//      return fahr;
+//  }
+// data(20);
+
+
 //
+
+
 
 
 
