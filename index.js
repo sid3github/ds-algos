@@ -67,9 +67,19 @@
 // data(20);
 
 
+
+//object oriented programming ex.
+// function data(firstName, lastName) {
+//     this.firtsName = firstName;
+//     this.lastName = lastName;
 //
-
-
+//     this.fullName = function() {
+//         return this.firtsName + '' + this.lastName;
+//     }
+// }
+//
+// let newData = new data('siddharth', 'padwal');
+// console.log(newData.fullName());
 
 
 
